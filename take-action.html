@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- TODO: Update the heading with the name of your website -->
-    <title>My Cause</title>
+    <title>Global Education</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,11 +15,7 @@
     
     <!-- links to Google font families-->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" 
-          rel="stylesheet">
-    
-    
-    
-    
+          rel="stylesheet"> 
   </head>
 
   <body>
@@ -35,16 +30,34 @@
       <h1>Take Action</h1>
     </div>
 
-    <!------------------------------->
-    <!--------FLEX CONTAINER--------->
-    <!------------------------------->
-    <!-- TODO: Create a flex container with the class "flex-container-action" to hold the description of your action and your check list -->
-    <!-- TODO: Inside the flex containter, add a flex item with the class "action-info-container" to hold your description-->
-    <!-- TODO: Inside the flex containter, add a flex item with class "action-list-container" and the id "checklist" to hold your checklist -->
-    
-    
-    
-    
-   
+    <div class="flex-action-container">
+      <div class="action-info-container">
+        <h2>
+          Test
+        </h2>
+        <p>
+          description of actionable items
+        </p>
+        <!---fix--->
+        <img src="https://cdn.glitch.com/4889daff-c11c-44ae-9842-becf2e1fdbc4%2Falissa-de-leva-bZ_RkRKE0Po-unsplash.jpg?v=1596123557916"/>
+      </div>
+      
+      <!------------------------------->
+      <!--------FLEX CONTAINER--------->
+      <!------------------------------->
+      <div class="action-list-container" id="checklist">
+        <h2 class="checklist-header">
+          My Action Item List
+        </h2>
+        <p ide="instructions">
+          Once you have completed an item, click it to check it off your list!
+        </p>
+        <ul id="my-list">
+          <li class="action-li">Step 1</li>
+          <li class="action-li">Step 2</li>
+          <li class="action-li">Step 3</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
