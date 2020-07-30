@@ -208,7 +208,13 @@ li.nav a:hover {
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-/* TODO: Add a breakpoint if the screen is 700px or less */
 
+/* breakpoint if the screen is 700px or less */
+@media mediatype and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
 
 /* TODO: Add additional breakpoints based on your website's design
