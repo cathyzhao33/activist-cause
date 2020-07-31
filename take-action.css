@@ -6,7 +6,7 @@
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #0D38D3;
+  background-color: #e2dfda;
 }
 
 
@@ -110,7 +110,7 @@
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  color: black;
+  color: #21203b;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -118,9 +118,9 @@
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: 	#887976;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   
   top: 15px;
   left: 13px;
