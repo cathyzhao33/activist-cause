@@ -220,3 +220,11 @@ like a checkmark!
     margin-right: 10%;
   }
 }
+
+a:visited {
+  color: 	#21203b;
+}
+
+a:hover {
+  color: blue;
+}
