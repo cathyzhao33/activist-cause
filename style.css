@@ -10,8 +10,8 @@ html {
   font-family: 'Raleway', sans-serif;
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  color: #585a75; /* Change the font color*/
+  background-color: #e2dfdb; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   font-family: 'Raleway', sans-serif;
-  color: #43d6b9ff;
+  color: black;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  color: #43d6b9ff;
+  color: #21203b;
   text-align: center;
   line-height: 1.3em;
 }
@@ -53,9 +53,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b67460;
-  border-style: solid;
-  border-color: #0D38D3;
+  background-color: #887976;
 }
 
 /* TODO (optional): Change the font size*/
@@ -71,7 +69,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -83,8 +81,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #8891a6;
+  color: #21203b;
 }
 
 /************************************************/
@@ -100,7 +98,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #887976;
   padding: 5px;
 
   /* Positioning properties */
@@ -116,7 +114,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: white;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -150,7 +148,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: 	#e2dfdb;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
